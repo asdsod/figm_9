@@ -1,0 +1,113 @@
+@import 'nul.css';
+
+body {
+    font-family: Lato;
+}
+
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+}
+
+.job__center{
+    width: 810px ;
+    margin: 0px auto 0px auto;
+}
+
+.header__title {
+    font-size: 46px;
+    font-weight: 900;
+    line-height: 138%;
+}
+.info__center{
+    display: inline;
+}
+.info__date{
+display: inline-block;
+color: dimgray;
+}
+.info__date::before{
+    content: '';
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    padding: 0px 5px 0px 0px ;
+    background: url('/image/Vector\ \(Stroke\).svg') 0 0 / 16px no-repeat ;
+}
+.info__time {
+    display: inline-block;
+    color:dimgray;
+    padding:  0px 0px 0px 30px;
+}
+.info__time::before{
+    content: '';
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    padding: 0px 5px 0px 0px ;
+    background: url(/image/Union.svg) 0 0 / 16px no-repeat;
+}
+.info__links{
+    display: inline-block;
+    text-align: right;
+
+}
+.info__share{
+    font-weight: 700;
+    margin: 0px 0px 0px 410px;
+}
+.info__facebook, .info__twitter, .info__in {
+    padding: 0px 0px 0px 12px;
+}
+
+.main__image{
+    margin: 40px 0px 60px 0px;
+}
+.text__vitae, .text__lorem{
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0px 0px 24px 0px;
+}
+.text__facilisi{
+    margin: 0px 0px 48px 0px;
+}
+
+
+.text__lorem {
+    padding: 0px 0px 0px 50px;
+    margin: 0px 0px 48px 0px;
+}
+.text__lorem::before {
+    content: '';
+    display: inline-block;
+    
+    margin: 0px 0px 0px -50px;
+    height: 20px;
+    width: 40px;
+    background: url(/image/Rectangle\ 268.svg) 0 0 / 10px no-repeat, url(/image/Rectangle\ 268.svg) top  / 10px no-repeat ;
+}
+.text__mauris{
+    margin: 0px 0px 24px 0px;
+}
+.text__pynkts{
+    padding: 0px 0px 0px 30px;
+   
+}
+.text__pynkts::before{
+    content: '';
+    display: inline-block;
+    height: 14px;
+    width: 15px;
+    margin: 0px 0px 0px -30px;
+    padding: 0px 0px 0px 10px;
+    background: url(/image/Vector\ \(1\).svg) 0 0 / 15px no-repeat;
+}
+.text__emin{
+    margin: 24px 0px 63px 0px;
+    
+}
+.info__links_right{
+    margin: 0px 0px 0px 260px;
+
+}
+
